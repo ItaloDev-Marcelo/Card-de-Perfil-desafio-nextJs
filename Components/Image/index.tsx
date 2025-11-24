@@ -9,5 +9,5 @@ interface ImageProps {
 }
 
 export default function CustomImage({img, alt, width, className, height}:ImageProps ) {
-    return <Image  src={img} alt={alt} width={width} height={height} className={className} />
+    return <Image  src={img} alt={alt} width={width} quality={80} height={height} className={className} />
 }

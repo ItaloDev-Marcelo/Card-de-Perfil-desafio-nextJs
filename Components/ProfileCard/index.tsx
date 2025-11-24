@@ -38,7 +38,7 @@ export default function ProfileCard({data}:ProfileData) {
     const buttonText = !follow ? 'Seguir' : 'Seguindo'
 
     return (
-         <div className="w-80 h-107 rounded-lg bg-white xl:w-85 xl:scale-110 ">
+         <div className="w-80 h-107 rounded-lg bg-white xl:w-85 xl:scale-110  shadow-lg shadow-purple-500/50">
             <div className='w-full h-1/4 bg-[#0000001A] rounded-t-md flex flex-col items-center cursor-pointer'>
                 <figure className='mt-10 scale-90 p-1 rounded-[50%] border-4 border-[#7354AE]'>
                     <CustomImage img={data.img} alt='Profile photo' width={100} height={100} 
